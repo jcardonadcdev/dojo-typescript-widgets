@@ -5,3 +5,7 @@
 node_modules/
 
 npm-debug.log
+
+*.js
+DojoWidgetBase/*.js
+DojoWidgetBase/**/*.js

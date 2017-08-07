@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Dojo 1 Typings - JSX Example</title>
+  <link rel="stylesheet" href="DojoWidgetBase/UsingMaquette/assets/css/beer-likes.css" />
+  <script>
+    var dojoConfig = {
+      baseUrl: "./",
+      async: true,
+      tlmSiblingOfDojo: false,
+      paths: {
+        dojo: "https://ajax.googleapis.com/ajax/libs/dojo/1.12.1/dojo",
+        dijit: "https://ajax.googleapis.com/ajax/libs/dojo/1.12.1/dijit"
+      }
+    }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.12.1/dojo/dojo.js"></script>
+</head>
+
+<body>
+  <!-- An example working with _WidgetBase and JSX.
+		you must do an `npm install` as well as `tsc` prior to navigating
+		to this page in order for it to work properly  -->
+  <div id="widget-div" class="widget-view"></div>
+
+  <script>
+    require([
+      "beer-main1"
+    ]);
+  </script>
+</body>
+
+</html>
