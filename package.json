@@ -1,0 +1,29 @@
+{
+  "name": "dojo-typescript-widgets",
+  "version": "1.0.0",
+  "description": "A collection of examples for using typescript to develop dojo widgets",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcardonadcdev/dojo-typescript-widgets.git"
+  },
+  "author": "James Cardona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcardonadcdev/dojo-typescript-widgets/issues"
+  },
+  "homepage": "https://github.com/jcardonadcdev/dojo-typescript-widgets#readme",
+  "dependencies": {
+    "dojo-typings": "1.11.6",
+    "maquette": "^2.5.2",
+    "typescript": "2.3.2"
+  },
+  "devDependencies": {
+    "tslint": "^5.5.0"
+  },
+  "scripts": {
+    "build:ts": "tsc",
+    "watch:ts": "tsc --watch --inlineSourceMap",
+    "tslint": "tslint -p tsconfig.json -e **/node_modules/**"
+  }
+}

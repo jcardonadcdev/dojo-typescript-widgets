@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+	"inlineSourceMap": false,
+	"jsx": "react",
+    "module": "amd",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": true,
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5"
+  },
+  "include": [
+    "*.ts",
+    "*.tsx",
+    "./**/*.ts",
+    "./**/*.tsx",
+    "./typings/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules/**/*.*"
+  ]
+}
